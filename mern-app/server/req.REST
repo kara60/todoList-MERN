@@ -1,0 +1,29 @@
+POST http://localhost:5500/api/item
+
+Content-Type: application/json
+{
+    "item": "This is the first to do item"
+}
+
+###
+
+GET http://localhost:5500/api/items
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5500/api/item/625882ced939f4ddb444d3c4
+
+Content-Type: application/json
+{
+    "item": "This is the second to do item uptaded"
+}
+
+###
+
+DELETE http://localhost:5500/api/item/625882ced939f4ddb444d3c4
+
+Content-Type: application/json
+{
+    "item": "This is the second to do item uptaded"
+}
